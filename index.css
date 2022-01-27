@@ -62,7 +62,6 @@ article{
     justify-content: space-evenly;  
     align-content: space-evenly;
     height: 250px;
-    margin-top: -10px;
 }
 .week{
     display: grid;
