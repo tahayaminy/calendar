@@ -20,6 +20,7 @@ article{
     color: var(--prim);
     border-radius: .5em;
 }
+
 .banner{
     background-color: var(--prim);
     color: var(--txt);
@@ -103,4 +104,22 @@ article{
 }
 .week>.today{
     color: var(--scnd);
+}
+@media only screen and (max-width:425px){
+    article{
+        width: 300px;
+    }
+    .days,.week{
+        grid-template-columns: 30px 30px 30px 30px 30px 30px 30px;
+    }
+    .days{
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        height: 200px;
+        margin: -5px auto;
+    }
+    .week{
+        font-size: 85%;
+        grid-template-rows: 30px;
+        height: 30px;
+    }
 }
